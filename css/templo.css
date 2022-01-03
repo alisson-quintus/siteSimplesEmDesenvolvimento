@@ -1,0 +1,103 @@
+body, ul,li,p{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+#background{
+    width: 100vw; /* view width 100% da largura da tela*/
+    height: auto; /*view height 100% da altura da tela*/
+    background: url('../img/backprincipal.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul > div{
+    align-items: center;
+    max-width: 120px;
+    margin-left: 40px;
+}
+a > div{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    color: black
+}
+h1{
+    text-align: center;
+}
+.quadrao{
+    display: flex;
+    justify-content: space-around;   
+    grid-template-columns: 50% 50%;
+
+}
+.quadro1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    margin:auto;
+    
+}
+.sidebar{
+    margin:0 auto;
+}
+.sidebar>div{
+    display: grid;
+    margin-bottom: 5px;
+    grid-template-columns: 50% 50%;
+    align-items: center;   
+}
+.sidebar> div:nth-child{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5px;
+}
+.sidebar>div>a{
+    color: black;
+}
+#side_text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-size: 18px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.texto{
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;  
+        max-width: 800px;
+        margin: 0 auto;
+        align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}

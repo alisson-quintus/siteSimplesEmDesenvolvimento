@@ -1,0 +1,54 @@
+body, ul,li,p{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+ul > div{
+    align-items: center;
+    max-width: 120px;
+    margin-left: 40px;
+}
+a > div{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    color: black
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+p {
+    text-align: center;
+    color: black;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}

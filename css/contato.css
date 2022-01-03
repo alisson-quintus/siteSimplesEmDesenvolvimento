@@ -1,0 +1,90 @@
+body, ul,li,p{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+ul > div{
+    align-items: center;
+    max-width: 120px;
+    margin-left: 40px;
+}
+#background{
+    width: 100vw; /* view width 100% da largura da tela*/
+    height: auto; /*view height 100% da altura da tela*/
+    background: url('../img/contato.jpg ');
+    background-size: cover;
+}
+#background2{
+    width: 100vw; /* view width 100% da largura da tela*/
+    height: 100vw; /*view height 100% da altura da tela*/
+    background: url('../img/backcontato.jpg ');
+    background-size: cover;
+    background-attachment: fixed;
+}
+a > div{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-variant: small-caps;
+    color: black
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.quadrao{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.quadro1{
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    margin:auto;
+    align-items: center;
+    
+}
+.quadro2{
+    margin: 0 auto;
+    background-color:burlywood;
+}
+.contato{
+    font-variant: small-caps;
+    font-size: 30px;
+    color: olive;
+    text-align: center;
+}
+.horarios{
+    font-variant: small-caps;
+    font-size: 15px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}
