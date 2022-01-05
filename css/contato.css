@@ -20,24 +20,13 @@ a {
     align-items: center;
     padding:20px;
 }
+
 ul > div{
     align-items: center;
     max-width: 120px;
     margin-left: 40px;
 }
-#background{
-    width: 100vw; /* view width 100% da largura da tela*/
-    height: auto; /*view height 100% da altura da tela*/
-    background: url('../img/contato.jpg ');
-    background-size: cover;
-}
-#background2{
-    width: 100vw; /* view width 100% da largura da tela*/
-    height: 100vw; /*view height 100% da altura da tela*/
-    background: url('../img/backcontato.jpg ');
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 a > div{
     margin-left: 40px;
     margin-top: 20px;
@@ -49,33 +38,49 @@ h1 {
     text-align: center;
     margin-top: 100px;
 }
+.voltar{
+    margin-bottom: 10px;
+}
 .quadrao{
-    display: grid;
-    grid-template-columns: 60% 40%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 70% 30%;
+
 }
 .quadro1{
     display: flex;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    padding: 10px;
-    margin:auto;
     align-items: center;
+    margin: auto 0 auto auto;
+    background-size: cover;
     
 }
 .quadro2{
+    display: grid;
     margin: 0 auto;
-    background-color:burlywood;
+    background:  white;
+    border-color: gray;
+    height: auto;
+    width: 500px;
 }
 .contato{
     font-variant: small-caps;
     font-size: 30px;
-    color: olive;
-    text-align: center;
+    color: rgb(5, 5, 2);
+    text-align: right;
+    margin: auto 85px auto auto;
+    border-right:yellowgreen;
 }
+
 .horarios{
     font-variant: small-caps;
     font-size: 15px;
 }
+.corpo_horarios{
+    margin: 0 auto;
+    text-align: right;
+    justify-items: auto;
+}
+
 img {
     max-width: 100%;
     display: block;
